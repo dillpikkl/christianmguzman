@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <script>
-        
+        //checks for key when submitted
         function submitkey() {
 
             document.cookie = document.getElementById('keyinserter').value;
@@ -22,12 +22,15 @@
     </script>
 </head>
 <body>
+
     <h1>Key</h1>
+    <!-- key input field -->
     <form>
         Key: <input type="password" id="keyinserter" value=""/>
         <input type="button" value="submit" onclick="submitkey();">
     </form>
     <p id="errorp"> </p>
+
     <footer>Last updated: 24/05/2022</footer>
 </body>
 </html>
