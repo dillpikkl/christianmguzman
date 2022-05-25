@@ -1,0 +1,25 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+img {
+    margin-left: 46.5%;
+    margin-right: 50%;
+}
+
+footer {
+    z-index: +10;
+    color: #ffffff;
+    position:fixed;
+  left:0px;
+  bottom:0px;
+  height:20px;
+  width:100%;
+  
+
+}

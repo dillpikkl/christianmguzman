@@ -1,0 +1,42 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+button {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #000000;
+    background: #ffffff;
+    display: inline-flex;
+    padding: 15px;
+    margin-top: 5px;
+    margin-right: 50%;
+    margin-left: 45.5%;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+button:hover {
+    color: #ffffff;
+    background: #000000;
+    cursor: pointer;
+ }
+
+ footer {
+    z-index: +10;
+    color: #ffffff;
+    position:fixed;
+  left:0px;
+  bottom:0px;
+  height:20px;
+  width:100%;
+  
+
+}

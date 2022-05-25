@@ -1,0 +1,78 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#rickroll {
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    opacity: 50%;
+  }
+
+body {
+    background-color: black;
+}
+
+div.entrance{
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+.pagebuttons {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #000000;
+    background: #ffffff;
+    display: inline-flex;
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+div.newpagebuttons {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagebuttons:hover {
+    color: #ffffff;
+    background: #000000;
+    cursor: pointer;
+ }
+
+ h1 {
+
+    font-size: 100px;
+ }
+
+ .aboutme {
+     font-size: 30px;
+ }
+
+ footer {
+     z-index: +10;
+     color: #ffffff;
+     position:fixed;
+   left:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;
+   
+
+ }

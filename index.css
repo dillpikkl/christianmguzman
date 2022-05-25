@@ -1,0 +1,34 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15%;
+    font-size: 70px;
+}
+
+input {
+    text-align: center;
+    margin-left: 43%;
+    margin-right: 50%;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+footer {
+    z-index: +10;
+    color: #ffffff;
+    position:fixed;
+  left:0px;
+  bottom:0px;
+  height:20px;
+  width:100%;
+  
+
+}
