@@ -13,5 +13,5 @@ if (document.cookie == "A4pBl") {
     window.location.href = "index.html"
 }
 
-var vid = document.getElementById("rickroll");
+
 
