@@ -5,14 +5,5 @@ window.addEventListener("keydown", function(event) {
     }
 });
 
-//checks for key
-if (document.cookie == "A4pBl") {
-    console.log("allowed")
-    
-} else {
-    console.log("rejected")
-    window.location.href = "index.html"
-}
-
 
 

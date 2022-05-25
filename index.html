@@ -8,29 +8,13 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <script>
-        //checks for key when submitted
-        function submitkey() {
-
-            document.cookie = document.getElementById('keyinserter').value;
-            if (document.cookie ==  "A4pBl") {
-                window.location.href = "home.html";
-                
-            } else {
-                document.getElementById("errorp").innerHTML = "WRONG KEY";
-            }
-        }
+  console.log("Thank you for visiting this website!")
+  window.location.replace("home.html");
     </script>
 </head>
 <body>
 
-    <h1>Key</h1>
-    <!-- key input field -->
-    <form>
-        Key: <input type="password" id="keyinserter" value=""/>
-        <input type="button" value="submit" onclick="submitkey();">
-    </form>
-    <p id="errorp"> </p>
-
+    <h1>Entering website...</h1>
     <footer>Last updated: 24/05/2022</footer>
 </body>
 </html>
