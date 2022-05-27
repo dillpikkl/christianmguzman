@@ -3,8 +3,9 @@ html {
 }
 
 h1 {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 50px;
 }
 
 button {
@@ -15,8 +16,8 @@ button {
     display: inline-flex;
     padding: 15px;
     margin-top: 5px;
-    margin-right: 50%;
-    margin-left: 45.5%;
+    margin-right: 40%;
+    margin-left: 42%;
     border: none;
     border-radius: 5px;
     
