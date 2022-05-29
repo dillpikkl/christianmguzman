@@ -2,5 +2,5 @@
 
 
 //updates the "last updated" footer in all pages
-document.getElementById("lastupdated").innerHTML = "Last updated: 27/05/2022"
+document.getElementById("lastupdated").innerHTML = "Last updated: 28/05/2022"
 
